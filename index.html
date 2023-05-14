@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem Pókemon</title>
+    <link rel="stylesheet" href="/devEMDobro/proj-pokelist/src/css/reset-pok.css">
+    <link rel="stylesheet" href="/devEMDobro/proj-pokelist/src/css/estilopoke.css">
+    <link rel="stylesheet" href="/devEMDobro/proj-pokelist/src/css/scrollbar.css">
+</head>
+
+<body>
+    <header><a href="#">
+            <img src="/devEMDobro/proj-pokelist/src/imagens/pokeball.png" alt="pokebola" class="logo">
+        </a>
+        <h1 class="poked">Pokédex</h1>
+        <button id="botao-alterar-tema" onclick="mudarTema()">
+            <img src="/devEMDobro/proj-pokelist/src/imagens/sun.png" alt="imagem do sol" class="imagem-botao">
+        
+        </button>
+    </header>
+
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bubasauro</span>
+                    <span>#001</span>
+                </div>
+
+                <img src="/devEMDobro/proj-pokelist/src/imagens/bulbasaur.gif" alt="bulbasaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Há uma semente de planta em suas costas desde o dia que este
+                    Pókemon nasce. A semente cresce lentamente.</p>
+
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+
+                <img src="/devEMDobro/proj-pokelist/src/imagens/ivysaur.gif" alt="ivysaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Quando o bulbo em suas costas cresce grande,
+                    parece perder a capacidade de ficar de pé em suas patas traseiras.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+
+                <img src="/devEMDobro/proj-pokelist/src/imagens/venusaur.gif" alt="venusaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Sua planta floresce quando está absorvendo energia solar.
+                    Ele permanece em movimento para buscar a luz solar.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+
+                <img src="/devEMDobro/proj-pokelist/src/imagens/charmander.gif" alt="charmander" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Tem preferência por coisas quentes.
+                    Quando chove, diz-se que o vapor jorra dda ponta da sua cauda.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div>
+
+                <img src="/devEMDobro/proj-pokelist/src/imagens/charmeleon.gif" alt="charmeleon" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Tem preferência por coisas quentes.
+                    Quando chove, diz-se que o vapor jorra da ponta da sua cauda.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+
+                <img src="/devEMDobro/proj-pokelist/src/imagens/charizard.gif" alt="charizard" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Tem preferência por coisas quentes.
+                    Quando chove, diz-se que o vapor jorra da ponta da sua cauda.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+
+                <img src="/devEMDobro/proj-pokelist/src/imagens/squirtle.gif" alt="Squirtle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">Seu corpo é envolto por uma casca dura que se forma e endurece após o nascimento.
+                    A forma arredondada e ranhurada ajuda a reduzir a resistência à água, permitindo que o Pokémon nade
+                    em alta velocidade.
+                    Squirtle pode borrifar água espumosa de sua boca com grande precisão.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+
+                <img src="/devEMDobro/proj-pokelist/src/imagens/wartortle.gif" alt="wartortle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">Wartortle evolui de Squirtle,usam a água para se camuflar antes de atacar as presas
+                    e nadar rapidamente atrás delas, usando suas orelhas e caudas para se equilibrar
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+
+                <img src="/devEMDobro/proj-pokelist/src/imagens/blastoise.gif" alt="blastoise" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">Blastoise pode assumir o papel de líder em grandes grupos de Squirtle e Wartortle.
+                    Seu habitat preferido parece ser lagoas e lagos de água doce.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div>
+
+                <img src="/devEMDobro/proj-pokelist/src/imagens/caterpie.gif" alt="Caterpie" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+
+                <p class="descricao"> Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os inimigos. 
+                </p>
+            </li>
+
+
+        </ul>
+
+
+
+    </main>
+    <script src="./src/js/pjpokem.js"></script>
+</body>
+
+</html>
